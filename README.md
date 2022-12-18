@@ -7,7 +7,7 @@ ID: S10202623A<br />
 ## Contents
 
 1. [Repositories](#Repositories)
-2. [Requirements and Analysis](#Requirements and Analysis)
+2. [Requirements and Analysis](#Requirements-and-Analysis)
 3. [Solution Architecture](#Solution-Architecture)
 4. [Startup Guide](#Startup-Guide)
 
@@ -21,6 +21,7 @@ This assignment is a microservice based ride-sharing platform which allows passe
 | 2 | eti-assg-acc-svc | Account microservice handling data of users. Uses REST. | [Link](https://github.com/chuadongen/eti-assg-acc-svc) |
 | 3 | eti-assg-trip-svc | Trips microservice handling data of trips. Uses REST. | [Link](https://github.com/chuadongen/eti-assg-trip-svc) |
 | 4 | eti-assg-mysql-db | MySQL for persistant data storage. | [Link](https://github.com/chuadongen/eti-assg-mysql-db) |
+| 5 | eti-assg-ui | Bonus react ui | [Link](https://github.com/chuadongen/eti-assg-ui) |
 
 ## Requirements and Analysis
 
@@ -86,7 +87,9 @@ In order to satisfy the 2 microservice requirements, it has been logically separ
 
 * **trip-svc** - This is this trips microservice that allows passengers and drivers to create and update trips.
 
-* **mysql-database** - To satisfy the requiremetns, a mysql database was setup for persistent storage. The schema is shown in the ER diagram above.
+* **mysql-database** - To satisfy the requirements, a mysql database was setup for persistent storage. The schema is shown in the ER diagram above.
+
+* **eti-assg-ui** - To satisfy the bonus requirements, a react website is used to create a better user expeirence for passengers and drivers.
 
 ## Startup Guide
 
@@ -117,3 +120,8 @@ Ensure that your console is in the directory of the assg-cli before running the 
 ```
 go run menu.go
 ```
+
+## Setup React UI
+
+Instructions inside [eti-assg-ui](https://github.com/chuadongen/eti-assg-ui)
+
