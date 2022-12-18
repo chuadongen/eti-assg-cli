@@ -7,10 +7,9 @@ ID: S10202623A<br />
 ## Contents
 
 1. [Repositories](#Repositories)
-2. [Requirements and Design Considerations](#Requirements-and-Design-Considerations)
+2. [Requirements and Analysis](#Requirements and Analysis)
 3. [Solution Architecture](#Solution-Architecture)
 4. [Startup Guide](#Startup-Guide)
-4. [Proof of Completion](#Proof-of-Completion)
 
 This assignment is a microservice based ride-sharing platform which allows passengers to book trips and riders to start/end trips.
 
@@ -66,6 +65,10 @@ Drivers should be able to view all their trip information as well
 2. Passengers cannot cancel trips
 
 ## Solution Architecture
+### Workflow Diagram
+
+![image](https://user-images.githubusercontent.com/73124349/208286968-54ffd958-6faf-4283-b70d-70c51e520aff.png)
+DriverStatus accounts for the availability of drivers
 
 ### ER Diagram
 
