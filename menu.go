@@ -307,12 +307,14 @@ func passengerMenu(p Passenger) {
 			//Result
 		case 3:
 			//Passenger account info current
-			fmt.Print("First Name: "+p.FirstName)
-			fmt.Print("Last Name: "+p.LastName)
-			fmt.Print("Mobile Number: "+p.MobileNumber)
-			fmt.Print("Email Addr: "+p.EmailAddr)
-			fmt.Print("Password : "+p.Password)
-			
+			fmt.Println()
+			fmt.Println("First Name: "+p.FirstName)
+			fmt.Println("Last Name: "+p.LastName)
+			fmt.Println("Mobile Number: "+p.MobileNumber)
+			fmt.Println("Email Addr: "+p.EmailAddr)
+			fmt.Println("Password : "+p.Password)
+			fmt.Println()
+
 			//Passenger acccount info input
 			var tempP Passenger = p
 			fmt.Print("Please enter your first name: ")
@@ -511,13 +513,15 @@ func driverMenu(d Driver) {
 			driverTripMenu(d.DriverId)
 		case 2:
 			//Driver account info current
-			fmt.Print("First Name: "+d.FirstName)
-			fmt.Print("Last Name: "+d.LastName)
-			fmt.Print("Mobile Number: "+d.MobileNumber)
-			fmt.Print("Email Addr: "+d.EmailAddr)
-			fmt.Print("Password : "+d.Password)
-			fmt.Print("License Number : "+d.LicenseNumber)
-			fmt.Print("Id Number : "+d.IdNumber)
+			fmt.Println()
+			fmt.Println("First Name: "+d.FirstName)
+			fmt.Println("Last Name: "+d.LastName)
+			fmt.Println("Mobile Number: "+d.MobileNumber)
+			fmt.Println("Email Addr: "+d.EmailAddr)
+			fmt.Println("Password : "+d.Password)
+			fmt.Println("License Number : "+d.LicenseNumber)
+			fmt.Println("Id Number : "+d.IdNumber)
+			fmt.Println()
 			//Driver acccount info input
 			var tempD Driver = d
 			fmt.Print("Please enter your first name: ")
